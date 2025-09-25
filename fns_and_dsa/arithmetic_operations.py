@@ -1,4 +1,5 @@
 def perform_operation (num1, num2, operation):
+    """Performs basic arithmetic operations."""
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
