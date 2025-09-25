@@ -14,7 +14,7 @@ userGuess = int(input("Enter the temprature to convert: "))
 if userGuess != int:
     print("Invalid temprature. Please enter a numeric value.")
     exit()
-unit = input("Is this in (C)elsius or (F)ahrenheit? ").strip().upper()
+unit = input("Is this temprature in Celsius or Fahrenheit? ").strip().upper()
 if unit == 'C':
     converted = convert_to_fahrenheit(userGuess)
     print(f"{userGuess}°C is {converted:.2f}°F")
