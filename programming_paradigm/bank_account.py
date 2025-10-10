@@ -15,7 +15,7 @@ class BankAccount:
             raise ValueTooLowError("Deposit amount must be greater than zero.")
 
         self.account_balance += amount
-        print(f"Deposited {amount}. Current balance: {self.account_balance}")
+        print(f"Deposited ${amount}")
         return self.account_balance
     
     def withdraw(self, amount):
