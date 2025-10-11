@@ -7,8 +7,15 @@ class Book:
 
 class Library:
     """A class representing a library."""
-    def __init__(self, books):
-        self.__books = books
+    def __init__(self, books=None):
+        try:
+            if books is None:
+                self.__books = []
+            else:
+                self.__books = books
+        except Exception as e:
+            print(f"An error occurred while initializing the library: {e}")
+            self.__books = []
 
     def add_book(self, book):
         """add a book to the library."""
