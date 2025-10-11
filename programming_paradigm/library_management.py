@@ -12,6 +12,7 @@ class Library:
             if books is None:
                 self.__books = []
             else:
+                print("Available books after setup:")
                 self.__books = books
         except Exception as e:
             print(f"An error occurred while initializing the library: {e}")
