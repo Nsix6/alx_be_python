@@ -25,4 +25,4 @@ class Circle(Shape):
     
     def area(self):
         """Calculate the area of the circle."""
-        return 3.14159 * (self.radius ** 2)
+        return math.pi * (self.radius ** 2)
