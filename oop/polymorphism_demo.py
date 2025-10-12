@@ -1,3 +1,5 @@
+import math
+
 class Shape:
     """Base class for different shapes."""
 
