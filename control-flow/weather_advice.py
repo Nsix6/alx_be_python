@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 
